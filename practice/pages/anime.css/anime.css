@@ -1,0 +1,91 @@
+body {
+    background-color: crimson;
+}
+h1 {
+    text-align: center;
+}
+button:hover {
+    background-color: aqua;
+    transition: 1s ease;
+}
+.p-tag {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+.host {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.anime-world {
+    width: 200px;
+    box-shadow: 10px 10px 10px;
+   
+}
+.dragon-ball {
+    width: 200px;
+    height: 200px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl973nn_G8Kx-_kIrWh5r7pHd6Q803-uyZfyrlDysBsYt8fnE&s');
+}
+.my-hero-academia {
+    width: 200px;
+    height: 200px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK4anapRembXvgbCxz5yQT50koAOO05DYKChYZmNhT0ZcZJLk&s');
+}
+.vinland-saga {
+    width: 200px;
+    height: 200px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyUbhNWbDoquI9Oytn5Z21Pltska40oVI3K6gVkm6F575ll44&s');
+}
+.attack-on-titan {
+    width: 200px;
+    height: 200px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8XGjyjj8xF5gxqyMMOwDvxXbY7jnu8nEWSsccRgwQC4qVNAk&s');
+}
+.anime-host {
+    width: 100vw;
+    margin: 10px;
+}
+.bleach {
+    width: 200px;
+    height: 200px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVyvxAavSs7arKxraMez5-qFBp-CIYDcspQuDBAHYG2Amw-WU&s');
+}
+.anime-code {
+    width: 200px;
+    box-shadow: 10px 10px 10px;
+}
+.one-piece {
+    width: 200px;
+    height: 200px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQTjQ5MMaLSax_diBbpj7vAV1Cb0wl5EGZKD-NV6upxWZKKvL&s');
+}
+.anime-host {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.naruto {
+    width: 200px;
+    height: 200px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXmpTYdxsndAkLO_inAZddD-BYiNNylXG9Q8eoAEyWBODi9dY&s');
+}
+.manga {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin: 10px;
+}
+.mob {
+    width: 200px;
+    height: 200px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHhn0qumguBxP7k9MB0Pk7WgjDJf7FDcwVs50iQTQkyHsmmhbF&s');
+}
+.hunter {
+    width: 200px;
+    height: 200px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHgKzKUSIe1yv7WMQqzBsDHXGgaaz94kfcFIKMMtOk8CYKJRqf&s');
+}

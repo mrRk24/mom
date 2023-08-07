@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+}
+body {
+    font-size: 20px;
+}
+.grid-container {
+ display: grid; 
+ height: 100vh;
+ width: 100vw;
+ grid-template-columns: repeat(3, auto);
+ grid-template-rows: 4fr 8fr 4fr 5fr 2fr 2fr;
+ grid-gap: 10px;
+}
+
+.nav-content {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: hsl(150, 100%, 50%);
+}
+.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    font-family: Times;
+    font-size: 1.5rem;
+    background-color: hsl(151, 65%, 70%);
+}
+.item-3 {
+    font-family: Times;
+    width: 200px;
+   margin: 10px;
+   box-shadow: 10px 12px 10px;
+}
+.item-2 {
+   font-family: Times;
+   width: 200px;
+   margin: 10px;
+   box-shadow: 10px 12px 10px;
+   padding: 10px;
+}
+.item-4 {
+    width: 200px;
+   margin: 10px;
+   font-family: Times;
+   box-shadow: 10px 12px 10px;
+}
+footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 100px;
+}
+.sopies {
+    width: auto;
+    height: 200px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_O70pG5HE6He0G9z_9hrstJRHFEYGvNsl5vzt89P_8cuZjak&s');  
+}
+.songs {
+    width: auto;
+    height: 200px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiNgbDjpDvg9VT7Mdd6eKCUTUiMm9Sci8eqhoGIFNgMJDyDsja&s');
+}
+.cartoons {
+    background-color: black;
+    width: auto;
+    height: 200px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAxxUyo4B4k0RCfL5GzOwKTz8WI4KcWCaofjDF-Nf2ZbR425U3&s');
+}
+footer {
+   background-color: black;
+   height: 200px;
+   width: auto;
+   font-family: serif;
+   padding-top: 40px;
+   color: bisque;
+}
+.footer-content {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: aqua;
+}
+.footer-bottom{
+    background-color: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: capitalize;
+    opacity: .4;
+    font-weight: 200;
+}
